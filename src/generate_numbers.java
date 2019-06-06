@@ -25,7 +25,10 @@ public class generate_numbers {
             array_of_numbers[i] = array_of_numbers[random_index];
             array_of_numbers[random_index] = temp;
         }
-        System.out.println(Arrays.toString(array_of_numbers));
 
+    }
+
+    public void print_array(){
+        System.out.println(Arrays.toString(array_of_numbers));
     }
 }
